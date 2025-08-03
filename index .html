@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ringtone Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .audio-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .audio-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .download-btn:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🎧 My Ringtones</h2>
+
+  <div class="audio-card">
+    <div class="audio-title">New Bewafai Ringtone 💔</div>
+    <audio controls>
+      <source src="New%20Bewafai%20Ringtone%20Sad%20Ringtone%20Love%20Life%20Ringtone%20Hindi%20Ringtone%20Popular%20Ringtone.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <br>
+    <a href="New%20Bewafai%20Ringtone%20Sad%20Ringtone%20Love%20Life%20Ringtone%20Hindi%20Ringtone%20Popular%20Ringtone.mp3" download class="download-btn">Download</a>
+  </div>
+
+</body>
+</html>
